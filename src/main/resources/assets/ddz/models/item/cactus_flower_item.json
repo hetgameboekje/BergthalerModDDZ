@@ -1,3 +1,6 @@
 {
-  "parent": "ddz:item/cactus_flower_item"
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "ddz:item/cactus_flower_item"
+  }
 }

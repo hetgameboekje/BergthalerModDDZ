@@ -29,7 +29,7 @@ public class 	ddzMain implements ModInitializer {
 		// Proceed with mild caution.
 		Registry.register(Registries.BLOCK, new Identifier("ddz", "cactus_plank"), CACTUS_PLANK);
 		Registry.register(Registries.ITEM, new Identifier("ddz", "cactus_plank"), new BlockItem(CACTUS_PLANK, new FabricItemSettings()));
-		Registry.register(Registries.ITEM, new Identifier("ddz", "cactus_flower"), CACTUS_FLOWER_ITEM);
+		Registry.register(Registries.ITEM, new Identifier("ddz", "cactus_flower_item"), CACTUS_FLOWER_ITEM);
 
 	}
 }
