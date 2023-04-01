@@ -25,8 +25,8 @@ public class 	ddzMain implements ModInitializer {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
-		Registry.register(Registries.BLOCK, new Identifier("tutorial", "cactus_plank"), CACTUS_PLANK);
-		Registry.register(Registries.ITEM, new Identifier("tutorial", "cactus_plank"), new BlockItem(CACTUS_PLANK, new FabricItemSettings()));
+		Registry.register(Registries.BLOCK, new Identifier("ddz", "cactus_plank"), CACTUS_PLANK);
+		Registry.register(Registries.ITEM, new Identifier("ddz", "cactus_plank"), new BlockItem(CACTUS_PLANK, new FabricItemSettings()));
 
 	}
 }
