@@ -21,7 +21,7 @@ public class 	ddzMain implements ModInitializer {
 	// That way, it's clear which mod wrote info, warnings, and errors.
 	public static final Logger LOGGER = LoggerFactory.getLogger("ddz");
 	public static final Block CACTUS_PLANK = new Block(FabricBlockSettings.of(Material.CACTUS).strength(1.0f));
-	public static final Item CACTUS_FLOWER_ITEM = new cactusFlowerItem(new Item.Settings().food(FoodComponents.APPLE));
+	public static final Item CACTUS_FLOWER = new cactusFlower(new Item.Settings().food(FoodComponents.APPLE));
 	@Override
 	public void onInitialize() {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
@@ -29,7 +29,7 @@ public class 	ddzMain implements ModInitializer {
 		// Proceed with mild caution.
 		Registry.register(Registries.BLOCK, new Identifier("ddz", "cactus_plank"), CACTUS_PLANK);
 		Registry.register(Registries.ITEM, new Identifier("ddz", "cactus_plank"), new BlockItem(CACTUS_PLANK, new FabricItemSettings()));
-		Registry.register(Registries.ITEM, new Identifier("ddz", "cactus_flower_item"), CACTUS_FLOWER_ITEM);
+		Registry.register(Registries.ITEM, new Identifier("ddz", "cactus_flower"), CACTUS_FLOWER);
 
 	}
 }

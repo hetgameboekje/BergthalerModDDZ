@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "ddz:item/cactus_flower_item"
+    "layer0": "ddz:item/cactus_flower"
   }
 }
